@@ -1,13 +1,16 @@
 # SQL-to-LLM-Assistant
- Project Overview- In many companies, team members may need access to data stored in SQL databases but lack the technical skills to write SQL queries. This chatbot allows users to ask questions in natural language, converts those questions into SQL queries, and retrieves results from the database.This project is applicable in various domains, including healthcare, retail, and finance.
-# Features
-Natural Language Processing: Converts user queries into SQL statements.
-Database Interaction: Connects to MySQL databases to fetch results.
-User-Friendly Output: Provides results back to the user in natural language.
-End-to-End Solution: From data preparation to interaction with the chatbot.
-# Tools Used
-- Python
-- LangChain
-- Google Gemini AI
-- MySQL
-
+Developed an AI-powered Text-to-SQL assistant that enables users to query MySQL databases using natural language without any technical SQL knowledge.
+The system uses Google Gemini AI and LangChain framework to automatically convert natural language questions into SQL queries and fetch real-time results 
+from the database.
+# Key Features:
+- Natural language to SQL conversion
+- Connected to live MySQL database
+- No SQL knowledge required for users
+- Powered by Google Gemini AI (LLM)
+- Built using LangChain framework
+# Tech Stack:
+Python | LangChain | Google Gemini AI 
+| MySQL | Jupyter Notebook
+# Example:
+User asks: "What is the total sales of Geiss Company?"
+System automatically generates SQL and returns the answer!
